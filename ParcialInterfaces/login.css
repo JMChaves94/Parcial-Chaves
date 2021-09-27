@@ -1,0 +1,361 @@
+/* ***************
+        LOGIN
+   *************** */
+
+body {
+    background: rgba(255, 255, 0, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    left: 0px;                      
+    top: 0px;
+
+    background: #16180A;
+}
+
+
+
+.logo {
+    display: flex;
+    position: absolute;
+    width: 243.38px;
+    height: 72px;
+    left: 8px;
+    top: 8px;
+
+    background: image="logo.png";
+}
+
+
+.recuadro1 {
+
+    width: 640px;
+    height: 480px;
+    margin: 5px;
+    text-align:center;
+
+    background: #16180A;
+    border: 3px solid #000000;
+    border-radius: 24px;
+}
+
+.recuadro2 {
+    width: 640px;
+    height: 480px;
+    text-align:center;
+    margin: 5px;
+
+    background: #FFFFFF;
+    border: 3px solid #8F02FE;
+
+    border-radius: 24px;
+}
+
+.flex-container {
+    margin-top: 240px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding: 5px;
+
+  }
+
+/* Ingresa y accedé a grandes descuentos en las farmacias asociadas */
+
+.TextoIndicador {
+position: relative;
+width: 512px;
+height: 133px;
+left: 64px;
+
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* imagen saludBA */
+
+.imagenBA {
+position: relative;
+width: 320px;
+height: 262px;
+
+
+background: url(image.png);
+border-radius: 24px;
+}
+
+
+.iniciarSesionText {
+    /* Iniciar sesión */
+
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+/* Ingresar usuario */
+
+.ingresarUsuario {
+
+position: absolute;
+width: 469px;
+height: 36px;
+left: 830px;
+top: 427px;
+}
+
+.ingresarContrasenia {
+    /* Ingresar contraseña */
+
+
+    position: absolute;
+    width: 469px;
+    height: 36px;
+    left: 830px;
+    top: 501px;
+
+}
+
+
+button {
+
+    /* Boton iniciar sesion */
+    font-size: 18px;
+    width: 176px;
+    height: 40px;
+    background: #D7D7D7;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.iniciarSesion{
+    background: #2D35ED;
+    color: white;
+}
+
+input{
+    font-size: 18px;
+    margin-top: 24px;
+    border: none;
+    width: 200px;
+    height: 24px;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+.olvidasteClave {
+    font-size: 18px;
+    text-align: center;
+    color: #4075FF;
+    text-decoration: none;
+}
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 936px;
+    bottom: 0;
+    background: #16180A;
+}
+
+
+
+
+/* ***************
+        PAGINA PRINCIPAL
+   *************** */
+
+
+   .grid-container {
+    margin-top: 216px;
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    margin-right: 340px;
+    margin-left: 280px;
+  }
+
+  .grid-container div{
+    
+    width: 640px;
+    height: 180px;
+    margin: 5px;
+    border: 3px solid #8F02FE;
+    border-radius: 24px;
+  }
+
+  .primercuadro{
+    background: #6133A5;
+    text-align: right;
+    transform: rotate(-11.52deg);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .segundocuadro{
+    margin-top: 8000px;
+    background:#FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+  }
+
+
+.imagenBA2{
+    position: absolute;
+    width: 414px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+}
+
+.usuario {
+    /* Usuario */
+
+
+    position: absolute;
+    width: 125px;
+    height: 42px;
+    left: 994px;
+    top: 23px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.cerrarSesion {
+
+    width: 212px;
+    height: 43px;
+    position: absolute;
+    right: 24px;
+    top: -8px;
+    color: red;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+
+.farmacity {
+    position: relative;
+    width: 300px;
+    height: 120px;
+    top: 32px;
+    right:80px;
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(5.5deg);
+}
+
+
+
+
+
+.drAhorro {
+    position: relative;
+    width: 150px;
+    height: 120px;
+    top: 32px;
+    right:120px;
+    border-radius: 24px;
+    transform: rotate(5.5deg);
+}
+
+
+.tkl {
+    position: relative;
+    width: 300px;
+    right: 50px;
+    top: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(5.5deg);
+}
+
+
+.footer2 {
+    position: absolute;
+    width: 1440px;
+    height: 88px;
+    left: 0px;
+    top: 936px;
+
+    background: #16180A;
+}
+
+.usuarioIngresado {
+    width: 212px;
+    height: 43px;
+    position: absolute;
+    right: 320px;
+    top:-4px;
+    background-color: #16180A;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+    border:none;
+}
+
+.descuentos{
+    text-align: center; padding-left: 25px; padding-top: 20px;
+}
+
+.gps{
+    float: right; margin-top: -158px; padding-right: 40px;
+}
